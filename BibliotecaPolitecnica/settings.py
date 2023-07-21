@@ -84,12 +84,12 @@ WSGI_APPLICATION = 'BibliotecaPolitecnica.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'BibliotecaDigital',
-        'USER': 'postgres',
-        'PASSWORD': 'mordecai27',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'railway',
+        'USER': 'root',
+        'PASSWORD': 'Nj7aFlXwTn9hCNcB4b19',
+        'HOST': 'containers-us-west-107.railway.app',
+        'PORT': '7379',
     }
 }
 
